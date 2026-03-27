@@ -5,34 +5,28 @@
     "id": "c99e75a7-369f-4c7e-a615-60068a94f79d",
     "name": {
         "short": "Testbot",
-        "full": ""
+        "full": "Testbot"
     },
     "developer": {
         "name": "acecarpenter",
-        "mpnId": "",
-        "websiteUrl": "",
-        "privacyUrl": "",
-        "termsOfUseUrl": ""
+        "websiteUrl": "https://bh8skklr-3978.use2.devtunnels.ms",
+        "privacyUrl": "https://bh8skklr-3978.use2.devtunnels.ms/privacy",
+        "termsOfUseUrl": "https://bh8skklr-3978.use2.devtunnels.ms/terms"
     },
     "description": {
-        "short": "",
-        "full": ""
+        "short": "A test bot",
+        "full": "A test bot for Teams"
     },
     "icons": {
         "outline": "outline.png",
         "color": "color.png"
     },
     "accentColor": "#FFFFFF",
-    "validDomains": [],
-
+    "validDomains": ["bh8skklr-3978.use2.devtunnels.ms"],
     "bots": [
         {
             "botId": "c99e75a7-369f-4c7e-a615-60068a94f79d",
-            "scopes": [
-                "personal",
-                "team",
-                "groupchat"
-            ],
+            "scopes": ["team"],
             "supportsFiles": false,
             "isNotificationOnly": false
         }
