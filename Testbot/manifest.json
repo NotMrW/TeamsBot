@@ -1,0 +1,40 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.25/MicrosoftTeams.schema.json",
+    "version": "1.0.0",
+    "manifestVersion": "1.25",
+    "id": "c99e75a7-369f-4c7e-a615-60068a94f79d",
+    "name": {
+        "short": "Testbot",
+        "full": ""
+    },
+    "developer": {
+        "name": "acecarpenter",
+        "mpnId": "",
+        "websiteUrl": "",
+        "privacyUrl": "",
+        "termsOfUseUrl": ""
+    },
+    "description": {
+        "short": "",
+        "full": ""
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "validDomains": [],
+
+    "bots": [
+        {
+            "botId": "c99e75a7-369f-4c7e-a615-60068a94f79d",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ]
+}
